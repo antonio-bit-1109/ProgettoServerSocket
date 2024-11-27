@@ -1,6 +1,6 @@
 package server;
 
-import fileManager.HandleFile;
+import filemanager.HandleFile;
 import threads.ThreadServer;
 
 import java.io.IOException;

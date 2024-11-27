@@ -1,4 +1,4 @@
-package fileManager;
+package filemanager;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -40,5 +40,5 @@ public class HandleFile {
         }
     }
 
-    
+
 }

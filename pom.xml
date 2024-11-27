@@ -13,7 +13,18 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+
+    <dependencies>
+
+        <!--        depend per jdbc -->
+        <dependency>
+            <groupId>com.oracle.ojdbc</groupId>
+            <artifactId>ojdbc8_g</artifactId>
+            <version>19.3.0.0</version>
+        </dependency>
+    </dependencies>
+
+
     <!--    plugin per creare il punto di accesso al progetto-->
     <build>
         <plugins>

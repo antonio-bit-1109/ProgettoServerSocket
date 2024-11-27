@@ -1,11 +1,10 @@
 package threads;
 
-import fileManager.HandleFile;
+import filemanager.HandleFile;
 
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 
 public class ThreadServer implements Runnable {
